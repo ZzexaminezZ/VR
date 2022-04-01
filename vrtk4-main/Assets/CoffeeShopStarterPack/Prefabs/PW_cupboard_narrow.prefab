@@ -5853,7 +5853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facade: {fileID: 7464423290999818694}
   eventOutputContainer: {fileID: 3872534142643244800}
-  resetDriveOnSetup: 1
+  resetDriveOnSetup: 0
   resetDriveOnSetupFirstTimeOnly: 1
   initialValueDriveSpeed: 5000
   targetValueReachedThreshold: 0.025
@@ -9976,7 +9976,7 @@ MonoBehaviour:
   startAtInitialTargetValue: 0
   initialTargetValue: 1
   moveToTargetValue: 0
-  targetValue: 0.5
+  targetValue: 0
   stepRange:
     minimum: 0
     maximum: 10
@@ -10796,7 +10796,7 @@ ConfigurableJoint:
   m_SecondaryAxis: {x: 0, y: 0, z: 0}
   m_XMotion: 0
   m_YMotion: 0
-  m_ZMotion: 0
+  m_ZMotion: 1
   m_AngularXMotion: 0
   m_AngularYMotion: 0
   m_AngularZMotion: 0
@@ -10804,7 +10804,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0
+    limit: 0.5
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -10829,23 +10829,23 @@ ConfigurableJoint:
     limit: 0
     bounciness: 0
     contactDistance: 0
-  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_TargetPosition: {x: 0, y: 0, z: -0}
   m_TargetVelocity: {x: 0, y: 0, z: 0}
   m_XDrive:
     serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
+    positionSpring: 10
+    positionDamper: 1
+    maximumForce: 0
   m_YDrive:
     serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
+    positionSpring: 10
+    positionDamper: 1
+    maximumForce: 0
   m_ZDrive:
     serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
+    positionSpring: 10
+    positionDamper: 1
+    maximumForce: 0
   m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
   m_RotationDriveMode: 0
