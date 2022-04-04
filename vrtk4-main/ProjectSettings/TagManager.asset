@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Fluid
   - Paila
+  - projectile
+  - FxTemporaire
+  - Cafe
+  - Tetera
+  - Cristal1
+  - Cristal2
+  - Cristal3
   layers:
   - Default
   - TransparentFX
