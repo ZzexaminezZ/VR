@@ -21,6 +21,8 @@
     "com.unity.xr.oculus.android": "2.38.6",
     "com.unity.xr.oculus.standalone": "2.38.4",
     "com.unity.xr.openvr.standalone": "2.0.5",
+    "io.extendreality.tilia.interactions.spatialbuttons.unity": "1.4.5",
+    "io.extendreality.tilia.indicators.spatialtargets.unity": "1.8.5",
     "io.extendreality.tilia.camerarigs.spatialsimulator.unity": "1.6.2",
     "io.extendreality.tilia.camerarigs.trackedalias.unity": "1.7.2",
     "io.extendreality.tilia.camerarigs.unityxr": "1.8.1",
